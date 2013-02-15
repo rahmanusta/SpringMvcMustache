@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+<form action="/MvcMustache/topla" method="post">
+    <table>
+        <tr>
+            <td>
+                <label>Sayı1:</label>
+            </td>
+            <td>
+                <input name="sayi1" type="text" value="{{formbean.sayi1}}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Sayı2:</label>
+            ,</td>
+            <td>
+                <input name="sayi2" type="text" value="{{formbean.sayi2}}"/>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" >
+                <input type="submit" value="Topla"/>
+            </td>
+
+        </tr>
+        Toplam: {{formbean.toplam}}
+    </table>
+    <br/>
+
+</form>
+</body>
+</html>

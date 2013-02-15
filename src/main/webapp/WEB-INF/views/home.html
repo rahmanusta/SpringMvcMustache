@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>
+            Kitap adı 
+        </th>
+        <th>
+            Fiyatı
+        </th>
+        <th>
+            Yazarı
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#kitaplar}}
+    {{#goster}}
+    <tr>
+        <td>
+            {{ad}}
+        </td>
+        <td>
+            {{fiyat}}
+        </td>
+        <td>
+            {{yazar}}
+        </td>
+    </tr>
+    {{/goster}}
+    {{/kitaplar}}
+    </tbody>
+</table>
+</body>
+</html>
