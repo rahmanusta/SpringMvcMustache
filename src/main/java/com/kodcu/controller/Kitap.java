@@ -1,4 +1,4 @@
-package com.garanti.controller;
+package com.kodcu.controller;
 
 /**
  * Created with IntelliJ IDEA.
