@@ -21,6 +21,9 @@ public class Kitap {
         this.goster = goster;
     }
 
+    public Kitap() {
+    }
+
     public Boolean getGoster() {
         return goster;
     }
